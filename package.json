@@ -29,8 +29,13 @@
     "sirv": "^2.0.3",
     "ts-node": "^10.9.1",
     "typescript": "^5.1.6",
-    "vite": "^4.4.9",
-    "vike": "^0.4.148"
+    "vike": "^0.4.148",
+    "vite": "^4.4.9"
   },
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.3.6"
+  }
 }

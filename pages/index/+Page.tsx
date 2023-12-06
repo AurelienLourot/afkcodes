@@ -1,18 +1,9 @@
-import { Counter } from './Counter'
-
-export { Page }
-
 function Page() {
   return (
-    <>
-      <h1>Welcome</h1>
-      This page is:
-      <ul>
-        <li>Rendered to HTML.</li>
-        <li>
-          Interactive. <Counter />
-        </li>
-      </ul>
-    </>
-  )
+    <div>
+      <h2 className='font-bold text-2xl'>welcome to afk.codes</h2>
+    </div>
+  );
 }
+
+export { Page };
