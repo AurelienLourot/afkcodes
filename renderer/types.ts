@@ -7,11 +7,10 @@ declare global {
       Page: Page
       pageProps?: PageProps
       urlPathname: string
-      exports: {
-        documentProps?: {
-          title?: string
-          description?: string
-        }
+      // See https://github.com/vikejs/vike/tree/main/examples/react-full-v1
+      config: {
+        title?: string
+        description?: string
       }
     }
   }

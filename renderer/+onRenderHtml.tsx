@@ -21,11 +21,9 @@ const onRenderHtml: OnRenderHtmlAsync = async (
     </PageShell>
   );
 
-  // See https://vike.dev/head
-  const { documentProps } = pageContext.exports;
-  const title = (documentProps && documentProps.title) || 'Vite SSR app';
-  const desc =
-    (documentProps && documentProps.description) || 'App using Vite + Vike';
+  // See https://github.com/vikejs/vike/tree/main/examples/react-full-v1
+  const title = pageContext.config.title || 'Vite SSR app';
+  const desc = pageContext.config.description || 'App using Vite + Vike';
 
   console.log(pageContext);
 
